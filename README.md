@@ -7,7 +7,7 @@
 
 ### Render
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/zhiyu1998/Gemi2Api-Server)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/DustDot/Gemi2Api-Server)
 
 ### HuggingFace（由佬友@qqrr部署）
 

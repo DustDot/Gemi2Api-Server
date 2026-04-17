@@ -19,8 +19,8 @@ services:
       - key: GEMINI_COOKIE_PATH
         value: /var/data/gemini_webapi
     disk:
-      - name: gemini-cookie-cache
-        mountPath: /var/data/gemini_webapi
-        sizeGB: 1
+      name: gemini-cookie-cache
+      mountPath: /var/data/gemini_webapi
+      sizeGB: 1
     healthCheckPath: /
     autoDeploy: true

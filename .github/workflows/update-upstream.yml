@@ -1,9 +1,6 @@
 name: Update Upstream Dependencies
 
 on:
-  schedule:
-    # 每天 UTC 02:00 检查更新 (北京时间上午10点)
-    - cron: '0 2 * * *'
   workflow_dispatch: # 允许手动触发
 
 jobs:

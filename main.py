@@ -957,8 +957,8 @@ async def create_chat_completion(
 							+ "\n\n"
 						)
 
-						# Send initial role chunk
-						yield make_chunk({"role": "assistant"})
+					# Send initial role chunk
+					yield make_chunk({"role": "assistant"})
 
 					thinking_started = False
 					thinking_ended = False
